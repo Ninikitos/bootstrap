@@ -1,0 +1,63 @@
+@import url("fonts.css");
+
+:root{
+  --button-color: #FF5733;
+  --button-hov-color: #f9785c;
+}
+.header{
+  margin-bottom: 120px;
+}
+.header__link{
+  margin: 0;
+}
+.header__logo{
+  width: 80px;
+}
+.nav-link{
+  color: black;
+}
+.nav-link:hover{
+  color: #FF5733;
+}
+.nav__item{
+  padding-left: 0;
+}
+.hero{
+  margin-bottom: 120px;
+}
+.hero__content{
+  margin-bottom: 40px;
+}
+.hero__button{
+  background-color: var(--button-color);
+  border-color: white;
+}
+.hero__button:hover{
+  background-color: var(--button-hov-color);
+  border-color: white;
+}
+.advantage{
+  margin-bottom: 120px;
+}
+.advantage__items{
+  list-style: none;
+}
+.advantage__link{
+  color: var(--button-color);
+}
+.card{
+  margin-bottom: 120px;
+  transition: all 0.2s;
+}
+.card:hover{
+  transform: scale(1.15);
+}
+.reviews{
+  margin-bottom: 120px;
+}
+.reviews__items{
+  list-style: none;
+}
+
+
+
