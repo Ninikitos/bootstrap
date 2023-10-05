@@ -4,6 +4,9 @@
   --button-color: #FF5733;
   --button-hov-color: #f9785c;
 }
+h5{
+  margin-bottom: 30px;
+}
 .nav{
   margin-bottom: 120px;
 }
@@ -58,6 +61,9 @@
   text-decoration: none;
   color: var(--button-color);
 }
+.card__last{
+  margin-bottom: 0;
+}
 .card__link:hover{
   color: var(--button-hov-color);
 }
@@ -91,6 +97,9 @@ footer{
 @media screen and (max-width: 768px) {
   .card{
     margin-bottom: 40px;
+  }
+  .card__last{
+    margin-bottom: 0;
   }
   .card:hover{
     transform: none;
@@ -134,6 +143,9 @@ footer{
   }
   .cards{
     margin-bottom: 80px;
+  }
+  .card__last{
+    margin-bottom: 0;
   }
   .footer__menu-list{
     flex-direction: column;
