@@ -4,7 +4,7 @@
   --button-color: #FF5733;
   --button-hov-color: #f9785c;
 }
-.header{
+.nav{
   margin-bottom: 120px;
 }
 .header__link{
@@ -54,12 +54,38 @@
 .card:hover{
   transform: scale(1.15);
 }
+.card__link{
+  text-decoration: none;
+  color: var(--button-color);
+}
+.card__link:hover{
+  color: var(--button-hov-color);
+}
 .reviews{
   margin-bottom: 120px;
 }
 .reviews__items{
   list-style: none;
   padding-left: 0;
+}
+footer{
+  padding: 80px 0;
+  border-top: 1px solid darkgray;
+}
+.footer__container{
+  width: 100%;
+}
+.nav__items{
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .footer__logo{
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -68,6 +94,9 @@
   }
   .card:hover{
     transform: none;
+  }
+  .reviews{
+    margin-bottom: 80px;
   }
   .reviews__content{
     flex-direction: column;
@@ -78,7 +107,7 @@
 }
 
 @media screen and (max-width: 570px) {
-  .header{
+  .nav{
     margin-bottom: 80px;
   }
   .hero{
@@ -106,7 +135,13 @@
   .cards{
     margin-bottom: 80px;
   }
-
+  .footer__menu-list{
+    flex-direction: column;
+  }
+  .footer__container{
+    flex-direction: column;
+    align-content: center;
+  }
 }
 
 
