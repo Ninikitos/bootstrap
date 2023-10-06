@@ -74,6 +74,25 @@ h5{
   list-style: none;
   padding-left: 0;
 }
+.location__items{
+  list-style: none;
+  padding-left: 0;
+}
+.location__sub-title{
+  margin-bottom: 16px;
+}
+.location__item{
+  margin-bottom: 40px;
+}
+.location__links {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.location__link{
+  text-decoration: none;
+}
 footer{
   padding: 80px 0;
   border-top: 1px solid darkgray;
@@ -111,6 +130,12 @@ footer{
     flex-direction: column;
   }
   .reviews__title{
+    margin-bottom: 30px;
+  }
+  .location__content{
+    flex-direction: column;
+  }
+  .location__title{
     margin-bottom: 30px;
   }
 }
